@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-dark);
+}
+
+img{
+    max-width: 100%;
+}
+
+:root {
+    --background-dark: #000000; 
+    --primary-dark: #222222;
+    --secondary-dark: #4A4A4A;
+    --lighter-dark: #5d6a75c5;
+    --alert: #F40018;
+    --share-color: #4BC800;
+    --primary-light: #FFFFFF;
+
+
+}
+
+.flx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ps_rel {
+
+    position: relative;
+}
+
+.ps_abs {
+    position: absolute;
+}
+
+.light_text{
+    color: var(--primary-light);
+    background-color: var(--lighter-dark);
+    padding: 0.3rem;
+}
+
+.lighter_text{
+    color: var(--primary-light);
+}
+
+.txt_right{
+    text-align: right;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.round_bord{
+    border-radius: 3px;
+}
+
+.view_size{
+    padding: 7px;
+    margin-bottom: 3rem;
+    font-size: 12px;
+}
+
+.container{
+    width: 90vw;
+    margin: auto;
+}
+
+.video_box{
+    /* height: 120px; */
+    width: 14%;
+}
+
+.user_name{
+    bottom: 5px;
+    left: 0px;
+    font-size: smaller;
+}
+
+.video_box>img{
+    object-fit: cover;
+}
+
+.footer_site{
+    height: 10vh;
+    background-color: var(--primary-dark);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    font-size: smaller;
+    justify-content: space-between
+    
+}
+
+.box_left{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    padding: 0 1rem;
+}
+
+.icon_text{
+    padding-top: 10px;
+}
+
+.box_center{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.green{
+    color: var(--share-color);
+}
+
+.box_right{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #5D6A75;
+}
+
+.end{
+    color: var(--alert);
+    padding-right: 2rem;
+    
+}
